@@ -1,0 +1,10 @@
+{
+  "domain": "growatt",
+  "name": "Growatt Sensor",
+  "documentation": "https://github.com/anilet/growattsensor",
+  "dependencies": [],
+  "codeowners": ["Anil Roy"],
+  "requirements": []
+}
+  
+ 
