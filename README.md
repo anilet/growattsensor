@@ -10,7 +10,7 @@ sensor:
     password: 'pwd_for_growatt_server'
 
   - platform: template
-  sensors:
+    sensors:
       energy_generation:
         value_template: '{% if is_state_attr("sensor.growatt", "power_generation", "NaN") %}0{% else %}{{ "%0.2f"|format(states.sensor.growatt.attributes.power_generation|float) }}{% endif %}'
         friendly_name: 'Generated'
